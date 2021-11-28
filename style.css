@@ -36,8 +36,38 @@ body{
 }
 
 .banner{
-    background: #353535;
+    background: url(images/slider.jpg) #696969;
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
     min-height: 650px;
     width: 100%;
-    display: flex;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 3em;
+}
+
+.banner p{
+    font-size: 2em;
+}
+
+.scrolldown{
+    position: absolute;
+    left: calc(50% - 52px);
+    margin-top: 15%;
+}
+
+.scrolldown img{
+    margin-bottom: 20px;
+}
+
+.scrolldown p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
 }
