@@ -281,3 +281,26 @@ h4{
 .sinner2 h4{
     font-family: "bignoodletitling";
 }
+
+.sinner2 a img{
+    display: inherit;
+    width: 100%;
+}
+
+.team{
+    padding-bottom: 90px;
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: -34%;
+}
+
+.partners{
+    background: url(images/cbanner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #f6f6f6;
+    padding: 30px 0;
+}
