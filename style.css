@@ -334,3 +334,11 @@ h4{
     font-family: 'Linearicons-Free';
     content: "\e874";
 }
+
+footer{
+    text-align: center;
+    background: #0e1316;
+    color: #ffffff;
+    font-family: "bignoodletitling";
+    padding: 40px 0 30px;
+}
