@@ -21,7 +21,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('accordion').accordion({
+    $('.accordion').accordion({
         defaultOpen:''
     });
 });
